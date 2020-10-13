@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #342609;
+    color: tan;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    color: tan;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    padding: 20px;
+}
+
+.portfolio-pic{
+    width: 80%;
+}
+
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(/media/portfolio-pic.jpg)  no-repeat center / cover;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bottom{
+    border-bottom: solid 1px tan;
+}
+
+.title{
+    background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    border-top: solid 1px tan;
+}
+
+.title-inner{
+    padding: 40px;
+}
+
+.title h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.title h2{
+    font-size: 25px;
+}
+
+.about{
+    padding: 40px;
+    text-align: center;
+}
+
+.about h3{
+    font-size: 25px;
+}
+
+.about p{
+    font-size: 17px;
+    padding: 40px;
+}
+
+.portfolio{
+    padding-bottom: 40px;
+}
+
+.portfolio-slider{
+    margin: 40px;
+}
+
+.portfolio-slider .slick-dots li button:before {
+    color: tan;
+    padding: 20px;
+  }
+
+.contact{
+    padding: 40px;   
+    text-align: center;
+}
+
+.contact-inner{
+    margin-top: 40px;
+}
+
+.contact-inner img{
+    width: 20px;
+}
+
+footer{
+    padding: 20px;
+    background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.3));
+}
+
+footer img{
+    width: 30px;
+}
+
+.icon{
+    border-right: solid 1px tan;
+}
+
+.last{
+    border: none;
+}
